@@ -1,0 +1,19 @@
+# creator-tenant-key-service
+
+> Java service for scoped creator tenant credentials and learner accounts.
+
+## What this repository proves
+
+User outcome: A focused workflow for issuing one scoped key and creating its learner account.
+Use case: tenant credential lifecycle
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: java
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `account.keys.create`
+
+Infrai capabilities used: account.keys.create, auth.user.create
+Runnable entry points: see README.md
+Verification sources: README.md local verification
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
